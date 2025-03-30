@@ -33,7 +33,7 @@ To use this parent POM in your project, update your `pom.xml` file with the foll
     <parent>
         <groupId>net.sasu.lib</groupId>
         <artifactId>net-sasu-lib-parent</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>
     
     <artifactId>my-library</artifactId>

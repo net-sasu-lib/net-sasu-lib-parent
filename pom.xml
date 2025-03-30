@@ -4,7 +4,7 @@
 
     <groupId>net.sasu.lib</groupId>
     <artifactId>net-sasu-lib-parent</artifactId>
-    <version>1.0.2-2</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
 
     <description>Parent Maven project for net.sasu.lib libraries</description>
@@ -236,6 +236,15 @@
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
+            </plugin>
+            <!-- Buildilng with javadoc is necessary for Maven Central -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
