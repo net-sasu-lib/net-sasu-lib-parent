@@ -4,15 +4,15 @@
 
     <groupId>net.sasu.lib</groupId>
     <artifactId>net-sasu-lib-parent</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
 
     <description>Parent Maven project for net.sasu.lib libraries</description>
     <url>https://net.sasu.lib</url>
     <licenses>
         <license>
-            <name>Zero-Clause BSD License</name>
-            <url>https://opensource.org/licenses/0BSD</url>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/mit</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -254,6 +254,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.9.0</version>
                 <reportSets>
                     <reportSet>
                         <reports>
